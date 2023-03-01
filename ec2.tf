@@ -19,7 +19,7 @@ resource "aws_instance" "ec2-web-TF" {
   ami           = var.aws_ami
   instance_type = var.aws_instance_type
   # availability_zone = var.aws_availability_zone
-  key_name = "TF_key_pair"
+  key_name =   "TF_key_pair"
 
   # network_interface {
   # device_index         = 0
